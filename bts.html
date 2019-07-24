@@ -1,0 +1,69 @@
+<!doctype HTML>
+<html>
+<head>
+	<title>Music player</title>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Nanum+Brush+Script&display=swap&subset=korean" rel="stylesheet">
+	<style>
+			body{
+				background-image: url("bts.jpg");
+				background-repeat: no-repeat;
+				background-size: 100%;
+				font-family: 'Nanum Brush Script', cursive;
+        		font-size: cover;
+			}
+			h1{
+				border: solid 5px rgb(117, 61, 228);
+				display: inline;
+			}
+			#wrapper{
+				display: grid;
+				grid-template-columns: 300px 300px;
+				grid-gap: 35px;
+			}
+			#container1{
+				grid-area: 1/1/5/2;
+			}
+			#container2{
+				grid-area: 1/2/5/3;
+			}
+	</style>
+</head>
+<body>
+	<h1 style="color:rgb(117, 61, 228);">방탄소년단</h1>
+	<div id="wrapper">
+		<div id="container1">
+			<h2>Lights</h2>
+			<audio controls loop>
+			<source src="Lights.mp3" type="audio/mpeg">
+			</audio><br><br>
+			<h2>Heartbeat</h2>
+			<audio controls loop>
+			<source src="Heartbeat.mp3" type="audio/mpeg">
+			</audio><br><br>
+			<h2>Answer : Love myself</h2>
+			<audio controls loop>
+			<source src="Anser_Love myself.mp3" type="audio/mpeg">
+			</audio><br><br>
+			<h2>Waste it on me</h2>
+			<audio controls loop>
+			<source src="Waste it on me.mp3" type="audio/mpeg">
+			</audio><br><br>
+		</div>
+		<div id="container2">
+			<h2>봄날</h2>
+			<audio controls loop>
+			<source src="봄날.mp3" type="audio/mpeg">
+			</audio><br><br>
+			<h2>So what</h2>
+			<audio controls loop>
+			<source src="So what.mp3" type="audio/mpeg">
+			</audio><br><br>
+			<h2>소우주</h2>
+			<audio controls loop>
+			<source src="소우주.mp3" type="audio/mpeg">
+			</audio><br><br>
+		</div>
+	</div>
+</body>
+</html>
